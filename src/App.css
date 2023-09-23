@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calci{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    font-weight: bolder;
+    font-size: large;
+    font-variant: small-caps;
+    text-indent: 5px;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    background-color: gray;
+}
+::placeholder{
+    color: aliceblue;
+}
+button{
+    width: 100%;
+    padding: 5px 0px;
+    border: 3px white solid ;
+    font-weight: bolder;
+    font-size:20px;
+    border-radius: 10px;
+}
+button:hover{
+    border: 3px blue solid;
+}
